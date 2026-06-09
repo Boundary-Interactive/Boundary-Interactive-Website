@@ -4,8 +4,8 @@ import { defineConfig } from 'astro/config';
 const basePath = process.env.BASE_PATH ?? '/';
 const siteUrl =
   basePath !== '/'
-    ? `https://sypherxn.github.io${basePath.replace(/\/$/, '')}`
-    : 'https://sypherxn.github.io';
+    ? `https://boundary-interactive.github.io${basePath.replace(/\/$/, '')}`
+    : 'https://boundary-interactive.github.io';
 
 function prefixRootRelativeUrls(base = '/') {
   const normalizedBase = base.endsWith('/') ? base.slice(0, -1) : base;

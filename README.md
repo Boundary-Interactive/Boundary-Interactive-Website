@@ -66,4 +66,4 @@ Set GitHub Actions **Variable** `PUBLIC_GA_MEASUREMENT_ID` to `G-21WBCSSXC4` onl
 
 Deployment runs from `.github/workflows/deploy.yml` on pushes to `main`.
 
-Live site: `https://sypherxn.github.io/Boundary-Interactive-Website/`
+Live site: `https://boundary-interactive.github.io/Boundary-Interactive-Website/`

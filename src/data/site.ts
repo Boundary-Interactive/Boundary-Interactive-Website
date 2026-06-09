@@ -11,7 +11,7 @@ export const links = {
 } as const;
 
 /** Public site URL (GitHub Pages). Use in external channel bios for backlinks. */
-export const siteUrl = "https://sypherxn.github.io/Boundary-Interactive-Website/";
+export const siteUrl = "https://boundary-interactive.github.io/Boundary-Interactive-Website/";
 
 /** Browser chrome color (matches --bg-elevated). */
 export const themeColor = "#2a3140";

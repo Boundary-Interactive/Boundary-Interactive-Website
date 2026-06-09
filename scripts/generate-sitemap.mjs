@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const SITE = "https://sypherxn.github.io/Boundary-Interactive-Website";
+const SITE = "https://boundary-interactive.github.io/Boundary-Interactive-Website";
 
 const staticPaths = ["/", "/about/", "/contact/", "/devlog/", "/game/", "/press/", "/privacy/"];
 
