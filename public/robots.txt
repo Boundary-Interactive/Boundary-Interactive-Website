@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://boundary-interactive.github.io/Boundary-Interactive-Website/sitemap.xml
+Sitemap: https://boundaryinteractive.com/sitemap.xml

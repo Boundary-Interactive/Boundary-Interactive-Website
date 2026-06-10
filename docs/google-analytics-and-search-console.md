@@ -2,8 +2,8 @@
 
 Use **one Google account** for both tools. Both are **free**.
 
-**Live site URL:** `https://boundary-interactive.github.io/Boundary-Interactive-Website/`  
-**Sitemap:** `https://boundary-interactive.github.io/Boundary-Interactive-Website/sitemap.xml`  
+**Live site URL:** `https://boundaryinteractive.com/`  
+**Sitemap:** `https://boundaryinteractive.com/sitemap.xml`  
 **GA4 measurement ID:** `G-21WBCSSXC4` (Boundary Interactive property)
 
 Search Console verifies this site through **Google Analytics** — no HTML meta tag required.
@@ -50,7 +50,7 @@ Steps:
 1. Open [Google Search Console](https://search.google.com/search-console).
 2. **Add property** → **URL prefix**:
    ```
-   https://boundary-interactive.github.io/Boundary-Interactive-Website/
+   https://boundaryinteractive.com/
    ```
 3. On the verification screen, choose **Google Analytics** (not HTML tag).
 4. Select the GA4 property that contains stream **G-21WBCSSXC4**.
@@ -72,13 +72,13 @@ If verification fails:
 
 1. In Search Console, open the verified property.
 2. **Sitemaps** → enter **`sitemap.xml`** (not `sitemap-index.xml`).
-3. Property must be **URL prefix**: `https://boundary-interactive.github.io/Boundary-Interactive-Website/` (not a Domain property).
+3. Property must be **URL prefix**: `https://boundaryinteractive.com/` (not a Domain property).
 4. Submit.
 
 **How long?** Google fetching the sitemap is usually **a few minutes to 1 hour** once the URL returns 200. Indexing all pages can take **days to weeks** (normal for a new site).
 
 **If status is “Couldn’t fetch”:** open  
-https://boundary-interactive.github.io/Boundary-Interactive-Website/sitemap.xml  
+https://boundaryinteractive.com/sitemap.xml  
 in your browser — you should see a `<urlset>` list of pages. Delete old sitemap rows in Search Console, wait 5 minutes, and submit **`sitemap.xml`** again.
 
 ---

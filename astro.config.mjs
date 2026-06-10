@@ -5,7 +5,7 @@ const basePath = process.env.BASE_PATH ?? '/';
 const siteUrl =
   basePath !== '/'
     ? `https://boundary-interactive.github.io${basePath.replace(/\/$/, '')}`
-    : 'https://boundary-interactive.github.io';
+    : 'https://boundaryinteractive.com';
 
 function prefixRootRelativeUrls(base = '/') {
   const normalizedBase = base.endsWith('/') ? base.slice(0, -1) : base;

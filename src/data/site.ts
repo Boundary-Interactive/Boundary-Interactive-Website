@@ -10,8 +10,8 @@ export const links = {
   discord: "https://discord.gg/9hhGvvrBD2"
 } as const;
 
-/** Public site URL (GitHub Pages). Use in external channel bios for backlinks. */
-export const siteUrl = "https://boundary-interactive.github.io/Boundary-Interactive-Website/";
+/** Public site URL. Use in external channel bios for backlinks. */
+export const siteUrl = "https://boundaryinteractive.com/";
 
 /** Browser chrome color (matches --bg-elevated). */
 export const themeColor = "#2a3140";

@@ -24,7 +24,7 @@ const assetPaths = [
 ];
 
 const readme = `Fly Exterminator / Boundary Interactive — press kit assets
-https://boundary-interactive.github.io/Boundary-Interactive-Website/press/
+https://boundaryinteractive.com/press/
 
 Includes logos, key art, UI screenshot, and room-scan image.
 Trailer: https://www.youtube.com/watch?v=pCl-uN2TTYY

@@ -16,7 +16,7 @@ npm run dev
 npm run build
 ```
 
-Production builds use `BASE_PATH=/Boundary-Interactive-Website` in CI (see deploy workflow).
+Production builds deploy to the custom domain `boundaryinteractive.com` (root path, no subpath).
 
 ## Single source of truth
 
@@ -66,4 +66,4 @@ Set GitHub Actions **Variable** `PUBLIC_GA_MEASUREMENT_ID` to `G-21WBCSSXC4` onl
 
 Deployment runs from `.github/workflows/deploy.yml` on pushes to `main`.
 
-Live site: `https://boundary-interactive.github.io/Boundary-Interactive-Website/`
+Live site: `https://boundaryinteractive.com/`
