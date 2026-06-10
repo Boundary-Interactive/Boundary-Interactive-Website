@@ -11,7 +11,7 @@ tags:
   - community
 ---
 
-USC Games Expo gave us a clear picture of what players respond to in **Fly Exterminator**. Since then, our focus has shifted to shipping a build we are confident putting in players’ hands for **Early Access on Meta Store** (still targeting late June 2026).
+USC Games Expo gave us a clear picture of what players respond to in **Fly Exterminator**. Since then, our focus has shifted to shipping a build we are confident putting in players’ hands for **Early Access on Meta Store** (now targeting July 2026).
 
 Here is what we are actively working on:
 

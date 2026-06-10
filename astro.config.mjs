@@ -1,11 +1,12 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { siteOrigin } from './site.config.mjs';
 
 const basePath = process.env.BASE_PATH ?? '/';
 const siteUrl =
   basePath !== '/'
     ? `https://boundary-interactive.github.io${basePath.replace(/\/$/, '')}`
-    : 'https://boundaryinteractive.com';
+    : siteOrigin;
 
 function prefixRootRelativeUrls(base = '/') {
   const normalizedBase = base.endsWith('/') ? base.slice(0, -1) : base;

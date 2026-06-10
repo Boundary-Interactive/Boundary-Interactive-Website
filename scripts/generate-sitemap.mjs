@@ -1,7 +1,8 @@
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { siteOrigin } from "../site.config.mjs";
 
-const SITE = "https://boundaryinteractive.com";
+const SITE = siteOrigin;
 
 const staticPaths = ["/", "/about/", "/contact/", "/devlog/", "/game/", "/press/", "/privacy/"];
 

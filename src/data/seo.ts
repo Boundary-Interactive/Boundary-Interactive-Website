@@ -30,17 +30,17 @@ export const pageSeo = {
   home: {
     title: "Boundary Interactive | Mixed-Reality Indie Game Studio for Meta Quest",
     description:
-      "Boundary Interactive builds mixed-reality games for Meta Quest. Fly Exterminator Early Access on Meta Store, targeting late June 2026."
+      `Boundary Interactive builds mixed-reality games for Meta Quest. Fly Exterminator Early Access on Meta Store, targeting ${game.releaseWindow}.`
   },
   about: {
     title: "Studio & Team | Boundary Interactive",
     description:
-      "Meet Boundary Interactive, the two-person indie studio behind Fly Exterminator. USC Games Expo 2026 showcase; Early Access targeting late June 2026."
+      `Meet Boundary Interactive, the two-person indie studio behind Fly Exterminator. USC Games Expo 2026 showcase; Early Access targeting ${game.releaseWindow}.`
   },
   press: {
     title: "Press Kit | Fly Exterminator & Boundary Interactive",
     description:
-      "Press assets and facts for Fly Exterminator — mixed-reality arcade game for Meta Quest 3. Early Access targeting late June 2026 on Meta Store."
+      `Press assets and facts for Fly Exterminator — mixed-reality arcade game for Meta Quest 3. Early Access targeting ${game.releaseWindow} on Meta Store.`
   },
   contact: {
     title: "Contact | Boundary Interactive",

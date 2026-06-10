@@ -1,5 +1,7 @@
 /** Canonical launch + studio data. Update here when store status or links change. */
 
+import { siteUrl as productionSiteUrl } from "../../site.config.mjs";
+
 const youtubeTrailerId = "pCl-uN2TTYY";
 
 export const links = {
@@ -11,7 +13,7 @@ export const links = {
 } as const;
 
 /** Public site URL. Use in external channel bios for backlinks. */
-export const siteUrl = "https://boundaryinteractive.com/";
+export const siteUrl = productionSiteUrl;
 
 /** Browser chrome color (matches --bg-elevated). */
 export const themeColor = "#2a3140";
@@ -163,11 +165,11 @@ export const game = {
   title: "Fly Exterminator",
   /** Customer-facing launch label (use on badges, press, SEO). */
   status: "Early Access",
-  releaseWindow: "June 2026",
+  releaseWindow: "July 2026",
   /** Compact status line for hero badges. */
-  statusBadge: "Early Access · June 2026",
+  statusBadge: "Early Access · July 2026",
   /** Longer release line for FAQ and press. */
-  releaseTarget: "Early Access on Meta Store, targeting late June 2026",
+  releaseTarget: "Early Access on Meta Store, targeting July 2026",
   /** Schema.org availability URL — use PreOrder until live; switch to InStock on launch. */
   storeOfferAvailability: "https://schema.org/PreOrder" as const,
   platform: "Meta Quest 3",
@@ -200,7 +202,7 @@ export const game = {
     "For USC Games Expo 2026 we streamlined the demo around Time Attack, movable UI, and a stable showcase build. We are now polishing toward Early Access on Meta Store."
   ],
   /** ISO date for structured data (Early Access target). */
-  releaseDateIso: "2026-06-30",
+  releaseDateIso: "2026-07-09",
   developmentTimeline:
     "Prototyping (spatial audio, room mesh, hand collision) → vertical slice and alpha (modes, tutorials, leaderboards, Food Defense escalation) → beta UI and playtest polish → USC Games Expo 2026 showcase → Early Access prep on Meta Quest 3.",
   trailerEmbedUrl: `https://www.youtube.com/embed/${youtubeTrailerId}`

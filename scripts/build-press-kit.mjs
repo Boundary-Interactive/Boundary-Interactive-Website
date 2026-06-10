@@ -5,6 +5,7 @@ import { createWriteStream, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import archiver from "archiver";
+import { siteUrl } from "../site.config.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const publicDir = join(root, "public");
@@ -24,7 +25,7 @@ const assetPaths = [
 ];
 
 const readme = `Fly Exterminator / Boundary Interactive — press kit assets
-https://boundaryinteractive.com/press/
+${siteUrl}press/
 
 Includes logos, key art, UI screenshot, and room-scan image.
 Trailer: https://www.youtube.com/watch?v=pCl-uN2TTYY

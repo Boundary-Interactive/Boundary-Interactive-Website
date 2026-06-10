@@ -20,7 +20,7 @@ Production builds deploy to the custom domain `boundaryinteractive.com` (root pa
 
 ## Single source of truth
 
-Launch copy, store links, team info, press kit assets, and social URLs live in `src/data/site.ts`. Update `game.status`, `game.releaseWindow`, `links.*`, and `pressKitAssets` there when anything changes for the store or marketing.
+Launch copy, store links, team info, press kit assets, and social URLs live in `src/data/site.ts`. The canonical domain lives in `site.config.mjs`. Update `game.status`, `game.releaseWindow`, `links.*`, and `pressKitAssets` there when anything changes for the store or marketing.
 
 **Brand logos:** `public/brand/` (`icon/`, `wordmark/`). Regenerate with `npm run brand:export`.
 
