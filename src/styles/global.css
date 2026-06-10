@@ -714,6 +714,12 @@ li {
   border-top: 1px solid var(--border);
 }
 
+.devlog-share-tools .button {
+  font-size: 0.85rem;
+  padding: 0.45rem 0.75rem;
+  margin-top: 0;
+}
+
 .copy-snippet {
   display: block;
   margin: 0.45rem 0;
