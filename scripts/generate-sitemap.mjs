@@ -4,7 +4,7 @@ import { siteOrigin } from "../site.config.mjs";
 
 const SITE = siteOrigin;
 
-const staticPaths = ["/", "/about/", "/contact/", "/devlog/", "/game/", "/press/", "/privacy/"];
+const staticPaths = ["/", "/about/", "/contact/", "/devlog/", "/game/", "/press/", "/privacy/", "/privacy-policy/"];
 
 function escapeXml(value) {
   return value

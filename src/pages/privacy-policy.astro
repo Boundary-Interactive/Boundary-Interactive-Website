@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { ogImages, pageSeo } from "../data/seo";
+import { Content as PrivacyPolicy } from "../data/legal/privacy-policy.md";
+---
+
+<Layout
+  title={pageSeo.privacyPolicy.title}
+  description={pageSeo.privacyPolicy.description}
+  ogImage={ogImages.default.path}
+>
+  <article class="panel legal-doc">
+    <PrivacyPolicy />
+  </article>
+</Layout>

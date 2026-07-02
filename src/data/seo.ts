@@ -60,6 +60,11 @@ export const pageSeo = {
     title: "Privacy Notice | Boundary Interactive",
     description:
       "How Boundary Interactive uses cookies and Google Analytics on this website, and how to manage your preferences."
+  },
+  privacyPolicy: {
+    title: "Privacy Policy | Fly Exterminator",
+    description:
+      "Privacy Policy for Fly Exterminator — how and why we access, collect, store, use, and share your personal information when you use our Services."
   }
 } as const;
 
