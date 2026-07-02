@@ -3,7 +3,7 @@ PRIVACY POLICY
 
 **Last updated April 29, 2026**
 
-This Privacy Notice for Matthew Gajun Tran ("**we**," "**us**," or "**our**"), describes how and why we might access, collect, store, use, and/or share ("**process**") your personal information when you use our services ("**Services**"), including when you:
+This Privacy Notice for Boundary Interactive LLC ("**we**," "**us**," or "**our**"), describes how and why we might access, collect, store, use, and/or share ("**process**") your personal information when you use our services ("**Services**"), including when you:
 
 *   Download and use our mobile application (Fly Exterminator), or any other application of ours that links to this Privacy Notice
 
@@ -11,7 +11,7 @@ This Privacy Notice for Matthew Gajun Tran ("**we**," "**us**," or "**our**"), d
 
 *   Engage with us in other related ways, including any marketing or events
 
-**Questions or concerns?** Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [matthewgtran@gmail.com](mailto:matthewgtran@gmail.com).
+**Questions or concerns?** Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [boundaryinteractivellc@gmail.com](mailto:boundaryinteractivellc@gmail.com).
 
 SUMMARY OF KEY POINTS
 ---------------------
@@ -326,7 +326,7 @@ However, please note that this will not affect the lawfulness of the processing 
 
   
 
-If you have questions or comments about your privacy rights, you may email us at [matthewgtran@gmail.com](mailto:matthewgtran@gmail.com).
+If you have questions or comments about your privacy rights, you may email us at [boundaryinteractivellc@gmail.com](mailto:boundaryinteractivellc@gmail.com).
 
   
 
@@ -437,7 +437,7 @@ Depending upon the state where you live, you may also have the following rights:
 
 ### How to Exercise Your Rights
 
-To exercise these rights, you can contact us by submitting a [data subject access request](https://app.termly.io/dsar/d0093fe2-5e2e-4305-b03d-703e199d24e4), by emailing us at [matthewgtran@gmail.com](mailto:matthewgtran@gmail.com), or by referring to the contact details at the bottom of this document.
+To exercise these rights, you can contact us by submitting a [data subject access request](https://app.termly.io/dsar/d0093fe2-5e2e-4305-b03d-703e199d24e4), by emailing us at [boundaryinteractivellc@gmail.com](mailto:boundaryinteractivellc@gmail.com), or by referring to the contact details at the bottom of this document.
 
   
 
@@ -453,7 +453,7 @@ If you submit the request through an authorized agent, we may need to collect ad
 
 ### Appeals
 
-**Under certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at [matthewgtran@gmail.com](mailto:matthewgtran@gmail.com). We will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.**
+**Under certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at [boundaryinteractivellc@gmail.com](mailto:boundaryinteractivellc@gmail.com). We will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.**
 
 ### California "Shine The Light" Law
 
@@ -522,15 +522,15 @@ We may update this Privacy Notice from time to time. The updated version will be
 13\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
 ----------------------------------------------
 
-If you have questions or comments about this notice, you may email us at [matthewgtran@gmail.com](mailto:matthewgtran@gmail.com) or contact us by post at:
+If you have questions or comments about this notice, you may email us at [boundaryinteractivellc@gmail.com](mailto:boundaryinteractivellc@gmail.com) or contact us by post at:
 
   
 
-Matthew Gajun Tran
+Boundary Interactive LLC
 
-133 Alturas Drive
+2801 Sunset Pl Unit 1103
 
-Burlingame, CA 94010
+Los Angeles, CA 90005
 
 United States
 
