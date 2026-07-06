@@ -165,11 +165,11 @@ export const game = {
   title: "Fly Exterminator",
   /** Customer-facing launch label (use on badges, press, SEO). */
   status: "Early Access",
-  releaseWindow: "July 16, 2026",
+  releaseWindow: "July 31, 2026",
   /** Compact status line for hero badges. */
-  statusBadge: "Early Access · July 16, 2026",
+  statusBadge: "Early Access · End of July 2026",
   /** Longer release line for FAQ and press. */
-  releaseTarget: "Early Access on Meta Store, targeting July 16, 2026",
+  releaseTarget: "Early Access on Meta Store, targeting July 31, 2026",
   /** Schema.org availability URL — use PreOrder until live; switch to InStock on launch. */
   storeOfferAvailability: "https://schema.org/PreOrder" as const,
   platform: "Meta Quest 3",
@@ -177,7 +177,7 @@ export const game = {
   rating: "Everyone",
   storeUrl: links.metaStore,
   /** Player support, press, and game-specific inquiries */
-  contactEmail: "flyexterminatorgame@gmail.com",
+  contactEmail: "fly.exterminator@boundaryinteractive.com",
   pitch:
     "Swat virtual flies in your real room. Fly Exterminator is a mixed-reality arcade game for Meta Quest 3 where hand-tracked reflexes, spatial audio, and room-scale play come together in fast score-chasing sessions.",
   shortDescription:
@@ -202,7 +202,7 @@ export const game = {
     "For USC Games Expo 2026 we streamlined the demo around Time Attack, movable UI, and a stable showcase build. We are now polishing toward Early Access on Meta Store."
   ],
   /** ISO date for structured data (Early Access target). */
-  releaseDateIso: "2026-07-16",
+  releaseDateIso: "2026-07-31",
   developmentTimeline:
     "Prototyping (spatial audio, room mesh, hand collision) → vertical slice and alpha (modes, tutorials, leaderboards, Food Defense escalation) → beta UI and playtest polish → USC Games Expo 2026 showcase → Early Access prep on Meta Quest 3.",
   trailerEmbedUrl: `https://www.youtube.com/embed/${youtubeTrailerId}`

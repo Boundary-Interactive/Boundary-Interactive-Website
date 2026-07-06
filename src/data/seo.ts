@@ -45,7 +45,7 @@ export const pageSeo = {
   contact: {
     title: "Contact | Boundary Interactive",
     description:
-      "Contact Boundary Interactive for studio, press, and business inquiries. Fly Exterminator press and support: flyexterminatorgame@gmail.com."
+      `Contact Boundary Interactive for studio, press, and business inquiries. Fly Exterminator press and support: ${game.contactEmail}.`
   },
   devlogIndex: {
     title: "Fly Exterminator Devlog | Boundary Interactive",

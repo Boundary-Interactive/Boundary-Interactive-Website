@@ -29,7 +29,7 @@ ${siteUrl}press/
 
 Includes logos, key art, UI screenshot, and room-scan image.
 Trailer: https://www.youtube.com/watch?v=pCl-uN2TTYY
-Press: flyexterminatorgame@gmail.com
+Press: fly.exterminator@boundaryinteractive.com
 `;
 
 const output = createWriteStream(outZip);
