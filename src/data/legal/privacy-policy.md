@@ -1,7 +1,7 @@
 PRIVACY POLICY
 ==============
 
-**Last updated April 29, 2026**
+**Last updated July 6, 2026**
 
 This Privacy Notice for Boundary Interactive LLC ("**we**," "**us**," or "**our**"), describes how and why we might access, collect, store, use, and/or share ("**process**") your personal information when you use our services ("**Services**"), including when you:
 
@@ -28,7 +28,7 @@ SUMMARY OF KEY POINTS
 
   
 
-**Do we collect any information from third parties?** We do not collect any information from third parties.
+**Do we collect any information from third parties?** When you use **Online play** in Fly Exterminator, **Meta provides account identifiers and display names** through platform sign-in. We do not otherwise collect information from third parties for Offline play. Learn more in [Fly Exterminator — Data We Collect and Your Choices](#fly-exterminator--data-we-collect-and-your-choices).
 
   
 
@@ -60,6 +60,8 @@ Want to learn more about what we do with any information we collect? [Review the
 
 TABLE OF CONTENTS
 -----------------
+
+[Fly Exterminator — Data We Collect and Your Choices](#fly-exterminator--data-we-collect-and-your-choices)
 
 [1\. WHAT INFORMATION DO WE COLLECT?](#1-what-information-do-we-collect)
 
@@ -93,6 +95,57 @@ TABLE OF CONTENTS
 
   
 
+Fly Exterminator — Data We Collect and Your Choices
+---------------------------------------------------
+
+Fly Exterminator is a mixed-reality game for Meta Quest headsets. Depending on how you play, we may process different types of information.
+
+### Offline play
+
+If you choose **Offline play** (or play without enabling online features):
+
+*   Game progress, unlocks, settings, and lifetime statistics are stored **locally on your headset** (for example, in JSON files under the app’s persistent data path and in Unity PlayerPrefs).
+*   We do **not** initialize Unity Gaming Services, submit scores to leaderboards, or send gameplay analytics.
+*   Mixed-reality features (passthrough, room setup, hand tracking) are handled by **Meta’s platform and device software** on your headset. We do not receive your raw room mesh or camera video on our servers.
+
+### Online play
+
+If you choose **Online play**:
+
+*   The game signs you in through **Meta (Oculus) platform authentication**, which is linked to **Unity Gaming Services (UGS) Authentication**.
+*   We receive and use a **platform user identifier** and **display name** (for example, your Meta/Oculus name, which Unity may append with a numeric suffix for uniqueness) to identify your account and show your name on leaderboards.
+*   When you complete a qualifying run, we submit your **score** and compact **run metadata** (game mode, flies caught, play time, room area estimates, difficulty options, and similar gameplay statistics) to **Unity Gaming Services Leaderboards**. Leaderboard entries may be **visible to other players**.
+*   Online features require an internet connection. You can switch to Offline play in Settings to stop future cloud uploads (existing cloud leaderboard entries are not automatically deleted).
+
+### Analytics (online only, optional)
+
+If you are in **Online play**, we may ask whether you allow **gameplay analytics** via **Unity Gaming Services Analytics**. Analytics is **off unless you opt in** (first launch prompt and Settings toggle).
+
+If you allow analytics, we send event data to Unity, such as:
+
+*   **run_completed** — mode, score, play time, kills, difficulty/loadout options, room area estimates, whether a score was submitted to leaderboards
+*   **run_abandoned** — mode and exit reason
+*   **tutorial_funnel** — tutorial step and completion/abandon counts
+*   **leaderboard_submit** — submit success/failure, rank, and percentile when applicable
+*   **visit_ended** — session length and visit counts
+*   **player_profile** — aggregated lifetime stats (games completed, favorite mode, visit habits, etc.), sent periodically or after certain milestones
+
+Analytics events may include your **UGS player ID** and **platform key** (for example, `meta`). They do **not** include your email address unless you separately provide it to us.
+
+If you deny analytics or turn it off in Settings, we stop sending new analytics events. Leaderboards and authentication may still work if Online play is enabled.
+
+### Local preferences
+
+Regardless of mode, the app may store on-device preferences such as audio levels, tutorial progress flags, analytics consent choice, and online/offline mode selection.
+
+### Data deletion
+
+To request deletion of data we control (including leaderboard or analytics data associated with your account, where applicable), contact **fly.exterminator@boundaryinteractive.com**. Some data may also be managed through Meta or Unity account/platform tools as described in their privacy policies.
+
+  
+
+  
+
 1\. WHAT INFORMATION DO WE COLLECT?
 -----------------------------------
 
@@ -118,47 +171,23 @@ We collect personal information that you voluntarily provide to us when you expr
 
   
 
-**Social Media Login Data.** We may provide you with the option to register with us using your existing social media account details, like your Facebook, X, or other social media account. If you choose to register in this way, we will collect certain profile information about you from the social media provider, as described in the section called "[HOW DO WE HANDLE YOUR SOCIAL LOGINS?](#5-how-do-we-handle-your-social-logins)" below.
+**Fly Exterminator (game app).** For data collected when you play Fly Exterminator on Meta Quest, see [Fly Exterminator — Data We Collect and Your Choices](#fly-exterminator--data-we-collect-and-your-choices) above. The game does not offer Facebook, X/Twitter, or other social media logins.
 
   
 
-**Application Data.** If you use our application(s), we also may collect the following information if you choose to provide us with access or permission:
-
-*   _Geolocation Information._ We may request access or permission to track location-based information from your mobile device, either continuously or while you are using our mobile application(s), to provide certain location-based services. If you wish to change our access or permissions, you may do so in your device's settings.
-
-*   _Mobile Device Access._ We may request access or permission to certain features from your mobile device, including your mobile device's sensors, social media accounts, storage, and other features. If you wish to change our access or permissions, you may do so in your device's settings.
-
-*   _Mobile Device Data._ We automatically collect device information (such as your mobile device ID, model, and manufacturer), operating system, version information and system configuration information, device and application identification numbers, browser type and version, hardware model Internet service provider and/or mobile carrier, and Internet Protocol (IP) address (or proxy server). If you are using our application(s), we may also collect information about the phone network associated with your mobile device, your mobile device’s operating system or platform, the type of mobile device you use, your mobile device’s unique device ID, and information about the features of our application(s) you accessed.
-
-This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes.
+**Contact information.** If you email us or contact us through support channels, we may collect your name, email address, or other information you choose to provide.
 
   
 
 All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.
 
-### Information automatically collected
+### Information automatically collected (website only)
 
-**_In Short:_** _Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Services._
-
-  
-
-We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes.
+**_In Short:_** _If you visit our website, some technical information may be collected automatically._
 
   
 
-The information we collect includes:
-
-*   _Log and Usage Data._ Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called "crash dumps"), and hardware settings).
-
-*   _Device Data._ We collect device data such as information about your computer, phone, tablet, or other device you use to access the Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, Internet service provider and/or mobile carrier, operating system, and system configuration information.
-
-*   _Location Data._ We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
-
-### Google API
-
-Our use of information received from Google APIs will adhere to [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the [Limited Use requirements](https://developers.google.com/terms/api-services-user-data-policy#limited-use).  
-
-  
+When you visit our website (for example, boundaryinteractive.com), we may collect limited device and usage information needed to operate the site. Fly Exterminator gameplay data collection is described in the [Fly Exterminator — Data We Collect and Your Choices](#fly-exterminator--data-we-collect-and-your-choices) section. Fly Exterminator does **not** collect GPS location; mixed-reality room sizing is derived locally on your headset, not from GPS.
 
   
 
@@ -256,18 +285,27 @@ We may need to share your personal information in the following situations:
 
   
 
+### Service providers for Fly Exterminator
+
+We use the following third parties to operate online features. They process data on our behalf according to their terms and privacy policies:
+
+| Provider | Purpose | Typical data |
+|----------|---------|--------------|
+| **Unity Technologies** (Unity Gaming Services) | Account authentication, leaderboards, optional gameplay analytics | UGS player ID, platform-linked account info, scores, leaderboard display name, gameplay event parameters described above |
+| **Meta Platforms Technologies** (Meta Quest / Horizon OS) | Platform sign-in, entitlement verification, mixed-reality and device features | Oculus/Meta user ID, display name, device/platform signals required for VR and MR |
+
+We do not sell your personal information. We do not use Fly Exterminator data for third-party advertising.
+
+*   [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
+*   [Meta Privacy Policy](https://www.meta.com/legal/privacy-policy/)
+*   [Unity Terms of Service](https://unity.com/legal/terms-of-service)
+
+  
+
 5\. HOW DO WE HANDLE YOUR SOCIAL LOGINS?
 ----------------------------------------
 
-**_In Short:_** _If you choose to register or log in to our Services using a social media account, we may have access to certain information about you._
-
-  
-
-Our Services offer you the ability to register and log in using your third-party social media account details (like your Facebook or X logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.
-
-  
-
-We will use the information we receive only for the purposes that are described in this Privacy Notice or that are otherwise made clear to you on the relevant Services. Please note that we do not control, and are not responsible for, other uses of your personal information by your third-party social media provider. We recommend that you review their privacy notice to understand how they collect, use, and share your personal information, and how you can set your privacy preferences on their sites and apps.
+**Not applicable to Fly Exterminator.** The game does not offer registration or login through Facebook, X/Twitter, or other third-party social media accounts. Online play uses **Meta (Oculus) platform authentication** as described in [Fly Exterminator — Data We Collect and Your Choices](#fly-exterminator--data-we-collect-and-your-choices).
 
   
 
@@ -348,22 +386,24 @@ California law requires us to let you know how we respond to web browser DNT sig
 
 ### Categories of Personal Information We Collect
 
-The table below shows the categories of personal information we have collected in the past twelve (12) months. The table includes illustrative examples of each category and does not reflect the personal information we collect from you. For a comprehensive inventory of all personal information we process, please refer to the section "[WHAT INFORMATION DO WE COLLECT?](#1-what-information-do-we-collect)"
+The table below shows the categories of personal information we may collect for Fly Exterminator and related Services. Collection depends on your choices (**Offline vs Online play**; **analytics opt-in**). For details, see [Fly Exterminator — Data We Collect and Your Choices](#fly-exterminator--data-we-collect-and-your-choices).
 
-| **Category**                                                                  | **Examples**                                                                                                                                                                                             | **Collected** |
-|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| A. Identifiers                                                                | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name | NO            |
-| B. Personal information as defined in the California Customer Records statute | Name, contact information, education, employment, employment history, and financial information                                                                                                          | NO            |
-| C. Protected classification characteristics under state or federal law        | Gender, age, date of birth, race and ethnicity, national origin, marital status, and other demographic data                                                                                              | NO            |
-| D. Commercial information                                                     | Transaction information, purchase history, financial details, and payment information                                                                                                                    | NO            |
-| E. Biometric information                                                      | Fingerprints and voiceprints                                                                                                                                                                             | NO            |
-| F. Internet or other similar network activity                                 | Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements                                                | NO            |
-| G. Geolocation data                                                           | Device location                                                                                                                                                                                          | NO            |
-| H. Audio, electronic, sensory, or similar information                         | Images and audio, video or call recordings created in connection with our business activities                                                                                                            | NO            |
-| I. Professional or employment-related information                             | Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us                             | NO            |
-| J. Education Information                                                      | Student records and directory information                                                                                                                                                                | NO            |
-| K. Inferences drawn from collected personal information                       | Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics                          | NO            |
-| L. Sensitive personal Information                                             |                                                                                                                                                                                                          | NO            |
+| **Category** | **Examples** | **Collected** |
+|--------------|--------------|---------------|
+| A. Identifiers | UGS player ID; Meta/Oculus user ID used for sign-in; leaderboard display name | **YES** (Online play) / **NO** (Offline only) |
+| B. Personal information as defined in the California Customer Records statute | Name, contact information, education, employment, employment history, and financial information | **NO** — we do not collect mailing address, payment card, etc. in the game |
+| C. Protected classification characteristics under state or federal law | Gender, age, date of birth, race and ethnicity, national origin, marital status, and other demographic data | **NO** |
+| D. Commercial information | Transaction information, purchase history, financial details, and payment information | **NO** — no in-app purchases in the current version |
+| E. Biometric information | Fingerprints and voiceprints | **NO** — hand/body tracking is processed on-device for gameplay; we do not collect biometric templates on our servers |
+| F. Internet or other similar network activity | Gameplay analytics events, leaderboard API calls, authentication sessions | **YES** (Online + analytics opt-in) / **NO** (Offline) |
+| G. Geolocation data | Device location | **NO** (precise GPS) — we do not collect GPS location. Room size/area used for gameplay is derived locally from MR setup, not GPS. |
+| H. Audio, electronic, sensory, or similar information | Images and audio, video or call recordings | **NO** (on our servers) — passthrough/camera data stays on device / Meta stack; not uploaded to Boundary Interactive |
+| I. Professional or employment-related information | Business contact details, job title, work history | **NO** |
+| J. Education Information | Student records and directory information | **NO** |
+| K. Inferences drawn from collected personal information | Profile or summary about preferences and characteristics | **LIMITED** — aggregated gameplay statistics in analytics (e.g., favorite mode); not used for advertising profiles |
+| L. Sensitive personal Information | | **NO** |
+
+*Collection depends on your choices (Offline vs Online play; analytics opt-in).*
 
   
 
@@ -399,7 +439,7 @@ We may use your personal information for our own business purposes, such as for 
 
   
 
-We have not disclosed, sold, or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. We will not sell or share personal information in the future belonging to website visitors, users, and other consumers.
+We have not sold personal information. We share data with service providers (Unity Technologies and Meta Platforms Technologies) to operate Fly Exterminator online features as described in [Service providers for Fly Exterminator](#service-providers-for-fly-exterminator). We will not sell personal information in the future.
 
 ### Your Rights
 
@@ -516,6 +556,10 @@ Complaints (complete POPIA/PAIA form 5): [PAIAComplaints@inforegulator.org.za](m
   
 
 We may update this Privacy Notice from time to time. The updated version will be indicated by an updated "Revised" date at the top of this Privacy Notice. If we make material changes to this Privacy Notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this Privacy Notice frequently to be informed of how we are protecting your information.
+
+  
+
+We may update Fly Exterminator with additional online or diagnostic features (for example, optional crash or performance reporting through Unity). If we enable new data collection, we will update this privacy policy and, where required, ask for your consent before collecting additional information.
 
   
 

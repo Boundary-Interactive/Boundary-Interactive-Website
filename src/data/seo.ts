@@ -64,7 +64,7 @@ export const pageSeo = {
   privacyPolicy: {
     title: "Privacy Policy | Fly Exterminator",
     description:
-      "Privacy Policy for Fly Exterminator — how and why we access, collect, store, use, and share your personal information when you use our Services."
+      "Privacy Policy for Fly Exterminator — offline and online play, Unity Gaming Services, Meta sign-in, leaderboards, optional analytics, and your choices."
   }
 } as const;
 
