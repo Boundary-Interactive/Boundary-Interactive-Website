@@ -187,8 +187,21 @@ function isActive(href: string) {
           <a
             class="footer-icon-link"
             href={`mailto:${studio.contactEmail}`}
-            aria-label="Email Boundary Interactive"
-            title="Email"
+            aria-label="Email Boundary Interactive studio"
+            title={`Studio: ${studio.contactEmail}`}
+          >
+            <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M20 5H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm-.4 2L12 12.4 4.4 7h15.2ZM4 17V9.3l7.4 5.2a1 1 0 0 0 1.2 0L20 9.3V17H4Z"
+              />
+            </svg>
+          </a>
+          <a
+            class="footer-icon-link"
+            href={`mailto:${game.contactEmail}`}
+            aria-label="Email Fly Exterminator support"
+            title={`Fly Exterminator: ${game.contactEmail}`}
           >
             <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true">
               <path

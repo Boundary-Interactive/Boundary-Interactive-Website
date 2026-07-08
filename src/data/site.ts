@@ -1,6 +1,6 @@
 /** Canonical launch + studio data. Update here when store status or links change. */
 
-import { siteUrl as productionSiteUrl } from "../../site.config.mjs";
+import { siteUrl as productionSiteUrl, studioContactEmail, gameContactEmail } from "../../site.config.mjs";
 
 const youtubeTrailerId = "pCl-uN2TTYY";
 
@@ -106,7 +106,7 @@ export const studio = {
   legalName: "Boundary Interactive LLC",
   description:
     "Boundary Interactive is a two-person indie game studio building mixed-reality games for Meta Quest.",
-  contactEmail: "boundaryinteractivellc@gmail.com",
+  contactEmail: studioContactEmail,
   about: [
     "Boundary Interactive is a Los Angeles–area indie studio co-founded by Matthew Tran and Chaeho Shin. We design and build mixed-reality games where your real room is the playspace—not a virtual backdrop.",
     "Our launch title, Fly Exterminator, grew from Quest 3 prototypes that tested spatial audio, room mesh collision, and hand-tracked swatting, through alpha and beta milestones, to a USC Games Expo 2026 showcase. We are polishing toward Early Access on Meta Store.",
@@ -176,8 +176,8 @@ export const game = {
   genres: ["Arcade", "Action", "Simulation"],
   rating: "Everyone",
   storeUrl: links.metaStore,
-  /** Player support, press, and game-specific inquiries */
-  contactEmail: "fly.exterminator@boundaryinteractive.com",
+  /** Player support, press, and game-specific inquiries (not general studio business) */
+  contactEmail: gameContactEmail,
   pitch:
     "Swat virtual flies in your real room. Fly Exterminator is a mixed-reality arcade game for Meta Quest 3 where hand-tracked reflexes, spatial audio, and room-scale play come together in fast score-chasing sessions.",
   shortDescription:

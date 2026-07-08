@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { gaMeasurementId, studio } from "../data/site";
+import { game, gaMeasurementId, studio } from "../data/site";
 import { ogImages, pageSeo } from "../data/seo";
 import { withBase } from "../utils/withBase";
 ---
@@ -22,8 +22,15 @@ import { withBase } from "../utils/withBase";
   <section class="panel">
     <h2>Who we are</h2>
     <p>
-      {studio.legalName} operates this site for {studio.name} and Fly Exterminator. Contact:
-      <a href={`mailto:${studio.contactEmail}`}>{studio.contactEmail}</a>.
+      {studio.legalName} operates this site for {studio.name} and Fly Exterminator.
+    </p>
+    <p>
+      <strong>Website and studio inquiries:</strong>
+      <a href={`mailto:${studio.contactEmail}`}>{studio.contactEmail}</a>
+    </p>
+    <p>
+      <strong>Fly Exterminator app privacy and data requests:</strong>
+      <a href={`mailto:${game.contactEmail}`}>{game.contactEmail}</a>
     </p>
   </section>
 
@@ -60,8 +67,10 @@ import { withBase } from "../utils/withBase";
     <h2>Your rights</h2>
     <p>
       Depending on where you live, you may have rights to access, correct, delete, or restrict
-      processing of personal data. To exercise these rights, email
+      processing of personal data. For this website, email
       <a href={`mailto:${studio.contactEmail}`}>{studio.contactEmail}</a>.
+      For Fly Exterminator app data, email
+      <a href={`mailto:${game.contactEmail}`}>{game.contactEmail}</a>.
     </p>
   </section>
 

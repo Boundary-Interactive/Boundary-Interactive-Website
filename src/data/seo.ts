@@ -1,5 +1,5 @@
 import { devlogShareImages, images } from "./images";
-import { game, teamMembers } from "./site";
+import { game, studio, teamMembers } from "./site";
 
 /** Dedicated 1200×630 social preview (see /public/og-social.png). */
 export const socialOgImage = {
@@ -45,7 +45,7 @@ export const pageSeo = {
   contact: {
     title: "Contact | Boundary Interactive",
     description:
-      `Contact Boundary Interactive for studio, press, and business inquiries. Fly Exterminator press and support: ${game.contactEmail}.`
+      `Studio and business: ${studio.contactEmail}. Fly Exterminator support and press: ${game.contactEmail}.`
   },
   devlogIndex: {
     title: "Fly Exterminator Devlog | Boundary Interactive",

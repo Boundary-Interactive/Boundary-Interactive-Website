@@ -5,7 +5,7 @@ import { createWriteStream, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import archiver from "archiver";
-import { siteUrl } from "../site.config.mjs";
+import { gameContactEmail, siteUrl, studioContactEmail } from "../site.config.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const publicDir = join(root, "public");
@@ -29,7 +29,8 @@ ${siteUrl}press/
 
 Includes logos, key art, UI screenshot, and room-scan image.
 Trailer: https://www.youtube.com/watch?v=pCl-uN2TTYY
-Press: fly.exterminator@boundaryinteractive.com
+Fly Exterminator press and support: ${gameContactEmail}
+Studio and business: ${studioContactEmail}
 `;
 
 const output = createWriteStream(outZip);
