@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import OptimizedImage from "../components/OptimizedImage.astro";
-import { game, links } from "../data/site";
+import { game, links, studio } from "../data/site";
 import { images } from "../data/images";
 import { ogImages, pageSeo } from "../data/seo";
 import { getCollection } from "astro:content";
@@ -121,8 +121,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
     </p>
     <p>
       <strong>Who is making it?</strong>
-      <a href={withBase("/about")}>Boundary Interactive</a>, a two-person studio founded by Matthew Tran and
-      Chaeho Shin. The team showcased the game at USC Games Expo 2026 and is polishing toward launch.
+      <a href={withBase("/about")}>{studio.legalName}</a> ({studio.name}), a two-person studio founded
+      by Matthew Tran and Chaeho Shin. The team showcased the game at USC Games Expo 2026 and is
+      polishing toward launch.
     </p>
     <p>
       <strong>Where can I follow updates?</strong>

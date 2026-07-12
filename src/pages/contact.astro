@@ -40,15 +40,15 @@ const discordDevlogPost = latestDevlog
   <section class="hero">
     <h1>Contact</h1>
     <p>
-      Reach out for press, business, or collaboration inquiries about Boundary Interactive and
-      <a href={withBase("/game")}>{game.title}</a>.
+      Reach out to {studio.legalName} for press, business, or collaboration inquiries about
+      {studio.name} and <a href={withBase("/game")}>{game.title}</a>.
     </p>
   </section>
 
   <section class="panel">
     <h2>Studio Email</h2>
     <p>
-      For Boundary Interactive, business, and general studio inquiries:
+      For {studio.legalName}, business, and general studio inquiries:
       <a href={`mailto:${studio.contactEmail}`}>{studio.contactEmail}</a>
     </p>
   </section>

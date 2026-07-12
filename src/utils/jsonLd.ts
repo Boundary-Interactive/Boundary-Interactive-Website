@@ -8,6 +8,7 @@ function organizationRef(site: SiteOrigin) {
   return {
     "@type": "Organization" as const,
     name: studio.name,
+    legalName: studio.legalName,
     url: siteUrl
   };
 }
