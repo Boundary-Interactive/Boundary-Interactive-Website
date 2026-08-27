@@ -109,7 +109,7 @@ export const studio = {
   contactEmail: studioContactEmail,
   about: [
     "Boundary Interactive is a Los Angeles–area indie studio co-founded by Matthew Tran and Chaeho Shin. We design and build mixed-reality games where your real room is the playspace—not a virtual backdrop.",
-    "Our launch title, Fly Exterminator, grew from Quest 3 prototypes that tested spatial audio, room mesh collision, and hand-tracked swatting, through alpha and beta milestones, to a USC Games Expo 2026 showcase. We are polishing toward Early Access on Meta Store.",
+    "Our launch title, Fly Exterminator, grew from Quest 3 prototypes that tested spatial audio, room mesh collision, and hand-tracked swatting, through alpha and beta milestones, to a USC Games Expo 2026 showcase. It is now in Early Access on Meta Store, released July 31, 2026.",
     "We share in-progress work on the devlog and welcome press, playtest feedback, and collaboration inquiries through our contact page."
   ],
   socialLinks: [
@@ -159,7 +159,7 @@ export const teamMembers = [
 /**
  * Fly Exterminator launch fields — update together when the Meta Store listing changes:
  * - status, statusBadge, releaseTarget, releaseWindow, releaseDateIso
- * - storeOfferAvailability (PreOrder → InStock when Early Access is live)
+ * - storeOfferAvailability (InStock while the listing is live)
  */
 export const game = {
   title: "Fly Exterminator",
@@ -167,11 +167,13 @@ export const game = {
   status: "Early Access",
   releaseWindow: "July 31, 2026",
   /** Compact status line for hero badges. */
-  statusBadge: "Early Access · End of July 2026",
+  statusBadge: "Out Now · Early Access",
   /** Longer release line for FAQ and press. */
-  releaseTarget: "Early Access on Meta Store, targeting July 31, 2026",
-  /** Schema.org availability URL — use PreOrder until live; switch to InStock on launch. */
-  storeOfferAvailability: "https://schema.org/PreOrder" as const,
+  releaseTarget: "Early Access on Meta Store, released July 31, 2026",
+  /** Schema.org availability URL. */
+  storeOfferAvailability: "https://schema.org/InStock" as const,
+  /** Primary store button label. */
+  storeCta: "Get it on Meta Store",
   platform: "Meta Quest 3",
   genres: ["Arcade", "Action", "Simulation"],
   rating: "Everyone",
@@ -199,12 +201,12 @@ export const game = {
   about: [
     "Fly Exterminator is built around Meta Quest 3 mixed reality: your room becomes the level. Flies travel along scanned surfaces while you move through your real space to intercept them.",
     "Early prototypes validated directional audio and room-mesh hand collision. Alpha added tutorials, leaderboards, progression, and multiple modes—including Food Defense with escalating challenge. Beta focused on UI readability, fly visibility, and playtest-driven balancing.",
-    "For USC Games Expo 2026 we streamlined the demo around Time Attack, movable UI, and a stable showcase build. We are now polishing toward Early Access on Meta Store."
+    "For USC Games Expo 2026 we streamlined the demo around Time Attack, movable UI, and a stable showcase build. Fly Exterminator launched in Early Access on Meta Store on July 31, 2026."
   ],
-  /** ISO date for structured data (Early Access target). */
+  /** ISO date for structured data (Early Access release). */
   releaseDateIso: "2026-07-31",
   developmentTimeline:
-    "Prototyping (spatial audio, room mesh, hand collision) → vertical slice and alpha (modes, tutorials, leaderboards, Food Defense escalation) → beta UI and playtest polish → USC Games Expo 2026 showcase → Early Access prep on Meta Quest 3.",
+    "Prototyping (spatial audio, room mesh, hand collision) → vertical slice and alpha (modes, tutorials, leaderboards, Food Defense escalation) → beta UI and playtest polish → USC Games Expo 2026 showcase → Early Access on Meta Quest 3 (July 31, 2026).",
   trailerEmbedUrl: `https://www.youtube.com/embed/${youtubeTrailerId}`
 };
 

@@ -39,11 +39,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
         ></iframe>
       </div>
       <figcaption class="media-caption">
-        Official trailer — mixed-reality fly catching on Meta Quest 3, ahead of Early Access.
+        Official trailer — mixed-reality fly catching on Meta Quest 3.
       </figcaption>
     </figure>
     <div class="btn-row">
-      <a class="button" href={game.storeUrl}>Wishlist on Meta Store</a>
+      <a class="button" href={game.storeUrl}>{game.storeCta}</a>
       <a class="button secondary" href={withBase("/press")}>Fly Exterminator press kit</a>
     </div>
   </section>
@@ -122,12 +122,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
     <p>
       <strong>Who is making it?</strong>
       <a href={withBase("/about")}>{studio.legalName}</a> ({studio.name}), a two-person studio founded
-      by Matthew Tran and Chaeho Shin. The team showcased the game at USC Games Expo 2026 and is
-      polishing toward launch.
+      by Matthew Tran and Chaeho Shin. The team showcased the game at USC Games Expo 2026 and released
+      Early Access on July 31, 2026.
     </p>
     <p>
       <strong>Where can I follow updates?</strong>
-      Wishlist on the <a href={game.storeUrl}>Meta Store listing</a>, join the
+      Get it on the <a href={game.storeUrl}>Meta Store listing</a>, join the
       <a href={links.discord}>Discord community</a>, read the <a href={withBase("/devlog")}>devlog</a>, browse the
       <a href={withBase("/press")}>press kit</a>, or email
       <a href={`mailto:${game.contactEmail}`}>{game.contactEmail}</a>.

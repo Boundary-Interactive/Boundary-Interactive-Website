@@ -28,7 +28,7 @@ const latestDevlogUrl = latestDevlog
   : new URL(withBase("/devlog/"), Astro.site).href;
 
 const discordDevlogPost = latestDevlog
-  ? `New devlog: **${latestDevlog.data.title}**\n${latestDevlog.data.summary}\n\nRead more: ${latestDevlogUrl}\nWishlist: ${game.storeUrl}\nDiscord: ${links.discord}`
+  ? `New devlog: **${latestDevlog.data.title}**\n${latestDevlog.data.summary}\n\nRead more: ${latestDevlogUrl}\nGet it: ${game.storeUrl}\nDiscord: ${links.discord}`
   : `Follow Fly Exterminator development: ${latestDevlogUrl}`;
 ---
 

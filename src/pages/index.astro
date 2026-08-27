@@ -53,7 +53,7 @@ const [latestDevlog] = posts;
     </figure>
     <div class="btn-row">
       <a class="button" href={links.discord}>Join Fly Exterminator Discord</a>
-      <a class="button secondary" href={game.storeUrl}>Wishlist on Meta Store</a>
+      <a class="button secondary" href={game.storeUrl}>{game.storeCta}</a>
       <a class="button secondary" href={withBase("/game")}>Full game page</a>
     </div>
   </section>
@@ -88,9 +88,9 @@ const [latestDevlog] = posts;
       )}
     </article>
     <article class="panel">
-      <h2>Follow development</h2>
+      <h2>Get the game</h2>
       <p>
-        Wishlist on the <a href={game.storeUrl}>Meta Store listing</a>, join the
+        Get it on the <a href={game.storeUrl}>Meta Store listing</a>, join the
         <a href={links.discord}>Fly Exterminator Discord</a>, and share our
         <a href={siteUrl}>official website</a> or browse the
         <a href={withBase("/press")}>press kit</a>.

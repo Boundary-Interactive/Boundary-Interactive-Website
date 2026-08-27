@@ -3,7 +3,7 @@
  * Register these as custom dimensions in GA4 Admin → Custom definitions if you want them in standard reports.
  */
 export const gaEvents = {
-  /** Meta Quest store / wishlist — primary conversion */
+  /** Meta Quest store listing — primary conversion */
   metaStoreClick: "meta_store_click",
   /** YouTube channel link */
   youtubeChannelClick: "youtube_channel_click",
