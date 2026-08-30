@@ -33,7 +33,7 @@ const teamImageByPhoto: Record<string, (typeof images)[keyof typeof images]> = {
       {studio.about.map((paragraph) => (
         <p>{paragraph}</p>
       ))}
-      <p class="muted">{game.releaseTarget}</p>
+      <p class="muted">{game.releaseTarget} · {game.priceLabel}</p>
     </div>
     <figure class="about-expo-figure media-block">
       <OptimizedImage
@@ -81,6 +81,8 @@ const teamImageByPhoto: Record<string, (typeof images)[keyof typeof images]> = {
   <section class="panel">
     <p>
       <a href={withBase("/game")}>{game.title} game page</a>
+      •
+      <a href={game.storeUrl}>{game.storeCta}</a>
       •
       <a href={withBase("/devlog")}>Devlog</a>
       •

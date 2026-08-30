@@ -20,9 +20,13 @@ function pressAssetHref(href: string) {
     <h1>Press Kit</h1>
     <p>
       <strong>{game.title}</strong> is a mixed-reality arcade game from <strong>{studio.legalName}</strong>.
-      {game.statusBadge} for {game.platform}. {game.releaseTarget}. Visit the
+      {game.statusBadge} for {game.platform}. {game.releaseTarget}. {game.priceLabel}. Visit the
       <a href={withBase("/game")}>official game page</a> for the trailer, screenshots, and FAQ.
     </p>
+    <div class="btn-row">
+      <a class="button" href={game.storeUrl}>{game.storeCta}</a>
+      <a class="button secondary" href={withBase("/game")}>Game page</a>
+    </div>
     <figure class="media-block">
       <OptimizedImage
         class="showcase-image"
@@ -49,6 +53,8 @@ function pressAssetHref(href: string) {
       <dd>{game.rating}</dd>
       <dt>Status</dt>
       <dd>{game.status}</dd>
+      <dt>Price</dt>
+      <dd>{game.priceLabel}</dd>
       <dt>Release</dt>
       <dd>{game.releaseTarget}</dd>
       <dt>Store</dt>

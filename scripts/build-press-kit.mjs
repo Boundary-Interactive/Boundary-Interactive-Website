@@ -27,6 +27,9 @@ const assetPaths = [
 const readme = `Fly Exterminator / Boundary Interactive — press kit assets
 ${siteUrl}press/
 
+Out now in Early Access on Meta Store (Meta Quest 3) — $15 USD.
+Released July 31, 2026.
+
 Includes logos, key art, UI screenshot, and room-scan image.
 Trailer: https://www.youtube.com/watch?v=pCl-uN2TTYY
 Fly Exterminator press and support: ${gameContactEmail}

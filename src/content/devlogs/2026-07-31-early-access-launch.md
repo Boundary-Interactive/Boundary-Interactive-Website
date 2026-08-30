@@ -1,16 +1,16 @@
 ---
 title: Fly Exterminator Is Out — Early Access on Meta Store
 date: 2026-07-31
-summary: Fly Exterminator launched in Early Access on Meta Store on July 31, 2026. Grab it on Quest, join Discord, and tell us how it plays in your room.
+summary: Fly Exterminator launched in Early Access on Meta Store on July 31, 2026. $15 USD on Meta Quest 3 — grab it, join Discord, and tell us how it plays in your room.
 tags:
   - early-access
   - meta-quest
   - launch
 ---
 
-**Fly Exterminator is live.** After prototypes, expo demos, OpenXR work, and Meta review, we released Early Access on **July 31, 2026**.
+**Fly Exterminator is live.** After prototypes, expo demos, OpenXR work, and Meta review, we released Early Access on **July 31, 2026**. It is **$15 USD** on Meta Store for **Meta Quest 3**.
 
-Your room is the level. Scan your space, listen for the buzz, and swat flies with your hands. We will keep iterating from player feedback while the listing is in Early Access.
+Your room is the level. Scan your space, listen for the buzz, and swat flies with your hands. We welcome player feedback while the listing is in Early Access.
 
 ### Play it
 

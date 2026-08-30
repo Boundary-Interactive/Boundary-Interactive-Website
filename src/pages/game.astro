@@ -22,12 +22,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
   jsonLd={buildVideoGameSchema(Astro.site, canonicalURL)}
 >
   <section class="hero">
-    <p class="status">{game.statusBadge} • {game.platform}</p>
+    <p class="status">{game.statusBadge} • {game.platform} • {game.priceLabel}</p>
     <p class="muted release-target">{game.releaseTarget}</p>
     <h1>{game.title}</h1>
     <p>{game.pitch}</p>
     <p class="muted">{game.shortDescription}</p>
-    <p class="muted">Genres: {game.genres.join(" / ")} • Rating: {game.rating}</p>
+    <p class="muted">Genres: {game.genres.join(" / ")} • Rating: {game.rating} • Price: {game.priceLabel}</p>
     <figure class="media-block">
       <div class="video-embed">
         <iframe
@@ -92,7 +92,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
         height={images.roomScanning.height}
       />
       <figcaption class="media-caption">
-        Room-scanning and hand-tracking tests that anchor fly paths and catches to your real environment.
+        Quest 3 room scanning so flies travel along your real walls, floors, and furniture.
       </figcaption>
     </figure>
     <figure class="media-block">
@@ -104,20 +104,25 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
         height={images.gameUi.height}
       />
       <figcaption class="media-caption">
-        Mixed-reality UI for mode setup and score chasing—designed for clarity during playtests and expo demos.
+        In-headset menus for mode setup and scoring, built to stay readable in mixed reality.
       </figcaption>
     </figure>
   </section>
 
   <section class="panel">
     <h2>Player FAQ</h2>
-    <p><strong>Platform:</strong> {game.platform} (mixed reality; room setup and scene capture required).</p>
+    <p>
+      <strong>Where can I get it?</strong>
+      Out now in Early Access on the <a href={game.storeUrl}>Meta Store</a> for {game.priceLabel}
+      (Meta Quest 3 only).
+    </p>
+    <p><strong>Platform:</strong> {game.platform} only (mixed reality; room setup and scene capture required).</p>
     <p>
       <strong>Controls:</strong> Hand tracking for swatting flies; in-headset UI for menus and mode setup.
     </p>
     <p>
-      <strong>Modes:</strong> Built around arcade score chasing—including Time Attack runs used for expo demos,
-      plus additional modes and tutorials developed through alpha and beta milestones.
+      <strong>Modes:</strong> Arcade score chasing in the Early Access build—Time Attack, Time Survival, and Food
+      Defense, plus tutorials for the core loop.
     </p>
     <p>
       <strong>Who is making it?</strong>
@@ -126,11 +131,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
       Early Access on July 31, 2026.
     </p>
     <p>
+      <strong>How do I send feedback?</strong>
+      We welcome player feedback. Join the <a href={links.discord}>Discord community</a>, email
+      <a href={`mailto:${game.contactEmail}`}>{game.contactEmail}</a>, or read the
+      <a href={withBase("/devlog")}>devlog</a>.
+    </p>
+    <p>
       <strong>Where can I follow updates?</strong>
-      Get it on the <a href={game.storeUrl}>Meta Store listing</a>, join the
-      <a href={links.discord}>Discord community</a>, read the <a href={withBase("/devlog")}>devlog</a>, browse the
-      <a href={withBase("/press")}>press kit</a>, or email
-      <a href={`mailto:${game.contactEmail}`}>{game.contactEmail}</a>.
+      Get it on the <a href={game.storeUrl}>Meta Store listing</a>, join Discord, browse the
+      <a href={withBase("/press")}>press kit</a>, or follow the
+      <a href={withBase("/devlog")}>devlog</a>.
     </p>
   </section>
 

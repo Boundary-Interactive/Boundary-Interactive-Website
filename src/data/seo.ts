@@ -30,17 +30,17 @@ export const pageSeo = {
   home: {
     title: "Boundary Interactive | Mixed-Reality Indie Game Studio for Meta Quest",
     description:
-      `Boundary Interactive builds mixed-reality games for Meta Quest. Fly Exterminator is in Early Access on Meta Store, released ${game.releaseWindow}.`
+      `Boundary Interactive builds mixed-reality games for Meta Quest. Fly Exterminator is out now in Early Access on Meta Store for ${game.priceLabel}, released ${game.releaseWindow}.`
   },
   about: {
     title: "Studio & Team | Boundary Interactive",
     description:
-      `Meet Boundary Interactive, the two-person indie studio behind Fly Exterminator. USC Games Expo 2026 showcase; Early Access released ${game.releaseWindow}.`
+      `Meet Boundary Interactive, the two-person indie studio behind Fly Exterminator. Out now in Early Access on Meta Quest 3 (${game.priceLabel}), released ${game.releaseWindow}.`
   },
   press: {
     title: "Press Kit | Fly Exterminator & Boundary Interactive",
     description:
-      `Press assets and facts for Fly Exterminator — mixed-reality arcade game for Meta Quest 3. Early Access on Meta Store, released ${game.releaseWindow}.`
+      `Press assets and facts for Fly Exterminator — mixed-reality arcade game for Meta Quest 3. Out now in Early Access on Meta Store for ${game.priceLabel}.`
   },
   contact: {
     title: "Contact | Boundary Interactive",
@@ -53,8 +53,8 @@ export const pageSeo = {
       "Development updates from prototyping through USC Games Expo 2026 and Early Access for Fly Exterminator on Meta Quest 3."
   },
   game: {
-    title: `Fly Exterminator — Early Access ${game.releaseWindow} | Meta Quest 3 MR Game`,
-    description: `${game.pitch} ${game.status} (${game.releaseTarget}). Get it on Meta Store.`
+    title: `Fly Exterminator — Out Now in Early Access | Meta Quest 3`,
+    description: `${game.pitch} Out now in Early Access (${game.priceLabel}). Get it on Meta Store.`
   },
   privacy: {
     title: "Privacy Notice | Boundary Interactive",
